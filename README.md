@@ -34,6 +34,9 @@ This will not work:
 </div>
 <span>What about here - oh on!</span>
 ```
+## templateUrl
+
+As our templates get more complex, they can become difficult to read inside of our controller function. In the example below, we're saving each line of our template as a seperate element in an array, then joining the elements together. 
 
 ```js
 function MyDirective() {
@@ -69,8 +72,6 @@ angular
 	.module('app')
 	.directive('myDirective', MyDirective);
 ```
-
-## templateUrl
 
 To avoid our directives getting too big like above, we can also use `templateUrl` instead, pointing to a HTML file instead. This can be incredibly useful for any large directives.
 
