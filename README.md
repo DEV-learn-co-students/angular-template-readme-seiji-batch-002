@@ -32,7 +32,7 @@ This will not work:
 <div>
 	Woo our directive goes here!
 </div>
-<span>What about here - oh on!</span>
+<span>What about here - oh no!</span>
 ```
 ## templateUrl
 
@@ -96,3 +96,5 @@ directive.html:
 ```
 
 This would work the same as if we had it as a string in our directive - neat! Normally we'd store our views in a folder inside our module folder `js/moduleName` inside a folder named `views`. This keeps everything all together!
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/angular-template-readme'>Angular Template</a> on Learn.co and start learning to code for free.</p>
